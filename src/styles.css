@@ -157,10 +157,22 @@
 }
 
 .Carti{
-  border:1px solid black;
+  padding: .5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  text-align: center;
+display: flex;
+}
+.CartiItem{
+    padding: .5rem;
+
+  background-color: #165b74;
+margin-left: 1rem;
+color: white;
+}
+
+.CartiItem h3{
+    text-align: right;
+
 }
 .footer {
   background-color: #06242e;
@@ -196,5 +208,9 @@
   }
   .rightSide img{
   width: 15rem;
+}
+.Carti{
+  flex-direction: column;
+
 }
 }
